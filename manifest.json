@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "EBA Video Hızlandırıcı",
+  "version": "1.0",
+  "description": "EBA ders platformundaki videoları 2x'den daha hızlı oynat.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "EBA Video Oynatma Hızı"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+  "https://ders.eba.gov.tr/ders/*"
+  ],
+      "js": ["content.js"]
+    }
+  ]
+}
