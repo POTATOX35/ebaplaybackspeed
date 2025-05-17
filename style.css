@@ -45,6 +45,21 @@ h3:hover {
   text-shadow: 0 0 16px rgba(0, 179, 143, 0.8);
 }
 
+
+.note-dev {
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(0, 179, 143);
+  transition: all 0.8s ease;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.note-dev:hover {
+  text-shadow: 0 0 10px rgba(0, 179, 143, 0.8);
+}
+
 button {
   background-color: #00c9a7;
   color: white;
