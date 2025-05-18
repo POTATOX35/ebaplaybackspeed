@@ -6,7 +6,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
         const win = iframe.contentWindow;
         const btn = win.document.querySelector('#spSkipIntroPlaybackRate');
         if (btn) {
-          // "3×" gibi string geliyor, sondaki × işaretini kaldırıp sayıya çevir
+          // FORZA UGANDA
           const value = btn.value.replace('×', '');
           const speed = parseFloat(value);
           if (!isNaN(speed)) {
